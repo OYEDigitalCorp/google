@@ -1,0 +1,86 @@
+.menubar{display: inline-block; font-size: 35px; color:#fff; cursor:pointer;}
+.overlay { height: 100%; width: 0; position: fixed; z-index: 1; top: 0;  right: 0; background-color: rgba(19,63,97,0.95);  overflow-x: hidden;
+  transition: 0.5s;}
+.overlay-content {  position: relative;  top: 35%;  left:0;  right:0; margin:0 auto; text-align: center;transition: all 0.8s ease; display:flex; justify-content: center;}
+.overlay-content  ul.main-nnavigation{list-style:none; padding:0; margin:0; transition: all 0.8s ease; text-align: center; padding-right:0px; }
+.overlay-content  ul.main-nnavigation li{display:block; padding-bottom: 40px; text-align: center;}
+.overlay-content  ul.main-nnavigation li a{ font-family: 'JuanaMedium'; font-size: 30px; color:#fff; position: relative;  text-align: center; width: 310px;}
+.overlay-content  ul.main-nnavigation li a span{    transition: all 0.6s ease; opacity: 0;  padding: 0 0 0 2rem; margin: 0 -5rem 0 0;
+    position: absolute;  right: 0;  top: 6px; z-index: 9999;  font-size: 21px; font-weight: 300;}
+.overlay-content  ul.main-nnavigation li a:hover span{transition: all 0.6s ease; opacity: 1; padding: 0 0 0 2rem; margin: 0 0rem 0 0; right:-42px;}
+.overlay-content ul.main-nnavigation li a sup{font-size: 13px;  font-family: 'recoletaregular'; padding-left: 2px; color: #fff; top: -13px;  position: relative; }
+.overlay .closebtn { position: absolute; top: 63px;right: 56px;  width: 40px;  height: 40px;  z-index:999999999;}
+.leftright{  height: 3px;  width: 40px;  position: absolute;  margin-top: 24px;  background-color: #fff;  border-radius: 2px;
+  transform: rotate(45deg);  transition: all .3s ease-in;}
+
+.rightleft{  height: 3px;  width: 40px;  position: absolute;  margin-top: 24px;  background-color: #fff;  border-radius: 2px;  transform: rotate(-45deg);  transition: all .3s ease-in;}
+.close-container:hover .leftright{  transform: rotate(-45deg);  background-color: #fff;}
+.close-container:hover .rightleft{  transform: rotate(45deg);  background-color:#fff;}
+.socailmenuarea{position: absolute; width:156px; height:100%; background: #ea9e8b; padding:294px 65px 0px; text-align: center; top:0; right:0; z-index:99999; }
+.socailmenuarea ul{list-style:none; padding:0; margin:0;}
+.socailmenuarea ul li{display: block; padding-bottom: 100px;}
+.socailmenuarea ul li a{font-size:16px; color:#feffff;}
+.slide-menu{display: none;  }
+.sectionburgurmbl{display: none;  }
+.active-content{ display:flex; justify-content: center;  transition: all 0.6s ease; align-items:center; margin:0 auto; transition: all 0.8s ease;}
+.active-content ul.main-nnavigation li{text-align: left;  padding-right:350px; transition: all .5s;}
+.active-content ul.service-submenu li:first-child{ font-family: 'FuturaNowHeadline'; font-size: 29px; color:#fff; position: relative;  }
+
+
+.active-content ul.main-nnavigation li a{ text-align: left; }
+
+.active-content ul.service-submenu li:first-child span{position: absolute;  left:-40px; top:0; cursor:pointer; font-weight: 300; font-size: 21px;}
+.active-content ul.service-submenu{text-align: left; list-style:none; padding:0;}
+ul.service-submenu{opacity:0; margin: 0 -5rem 0 0; }
+.active-list ul.service-submenu{opacity:1; margin: 0 0rem 0 0; transition: all 0.8s ease; }
+ul.service-submenu li a{font-family: 'JuanaMedium';  font-size: 15px; text-transform: uppercase; color:#b7b7b7; font-weight: 300;}
+ul.service-submenu li a:hover{font-weight: 400; color:#fff;}
+.active-content ul.main-nnavigation li{ position: relative; }
+ul.main-nnavigation{ position: relative; }
+ul.service-submenu{ position: absolute; top: 0px; left: 100%;  }
+ul.service-submenu li a{    font-family: 'quasimodalight' !important; font-size: 15px !important; text-transform: uppercase !important; color:#fff  !important; font-weight: 300 !important; white-space: nowrap;}
+ul.service-submenu li h3{ font-family: 'JuanaMedium'  !important;  font-size: 29px;  color: #fff;  position: relative; text-align: left;}
+
+ ul.service-submenu li a:hover{font-weight: 400 !important; color:#fff !important; font-family: 'quasimodabold' !important;}
+ul.service-submenu li{padding-bottom: 30px !important; }
+.overlay-content ul.main-nnavigation li{ transition: all .5s; }
+ul.service-submenu{width:100% !important;}
+ul.service-submenu li{padding-right: 0px !important;}
+.menubar2{display: none; font-size: 35px; color:#fff; cursor:pointer;}
+ul.service-submenu ul{ position: absolute; left: -50%; top: 0px; opacity: 0; width: 100%; }
+ul.service-submenu.dropdown_menu_1.third_active{ left: 40%; transition: all .5s; }
+ul.service-submenu.dropdown_menu_1.third_active>li>a{ opacity: 0 }
+ul.service-submenu.dropdown_menu_1.third_active h3{ opacity: 0 }
+ul.service-submenu.dropdown_menu_1.third_active .clk2{ opacity: 0 }
+.third_level li a{ opacity: 1.0 }
+.third_active ul.third_level{ left: 50%; }
+.third_active .third_level h3.third_heading{ opacity: 1.0 !important }
+.active-content ul.service-submenu li:first-child span{ z-index: 9 }
+.active-content ul.service-submenu li:first-child span{ top: 4px; }
+.clk3{ top: -4px !important; }
+.active-content ul.main-nnavigation li{ position: static; }
+ul.service-submenu{ top: 50%; transform: translateY(-50%); }
+li.slide-sub-sub-menu{ position: relative; }
+.sidearrow{ position: absolute; right: 0px; color: #fff; right: 15px; top: 12px; color: #fff; }
+ul.service-submenu{ z-index:-1; }
+ul.third_level{ z-index:-1}
+.active-content ul.service-submenu{ z-index:9}
+.third_z_index{ z-index:9 !important}
+.third_level ul li a:hover{ color:#fff;}
+ul.service-submenu ul{ top:50%; transform:translateY(-50%);}
+
+.clk3{transition: all 0.6s ease;  opacity: 0; padding: 0 0 0 2rem;  margin: 0 -5rem 0 0;  right: 0;  top: 6px;  z-index: 9999;  font-size: 21px;  font-weight: 300; cursor: pointer; color: #fff;}
+i.fa-arrow-alt-circle-right {  margin-left: 15px;  vertical-align: middle;  transition: 0.5s;}
+ul.service-submenu li.scndli:hover .clk3{ opacity: 1.0; margin: 0 0rem 0 0; padding: 0;}
+.third_active .clk3{ display: none;}
+
+.clk{ transition: all .6s ease;  opacity: 0;  padding: 0 0 0 2rem;  margin: 0 -5rem 0 0; display: inline-block; color: #fff; cursor: pointer;  right: 0;  top: 6px;  z-index: 9999; font-size: 21px;  font-weight: 300; } 
+
+ul.main-nnavigation li:hover .clk{ opacity: 1.0; padding: 0 }
+
+
+
+
+@media only screen and (max-width: 1500px) {
+.active-content ul.main-nnavigation li{ padding-right: 107px; }
+}
