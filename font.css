@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'JuanaMedium';
+    src: url('JuanaMedium.eot');
+    src: url('JuanaMedium.eot') format('embedded-opentype'),
+         url('JuanaMedium.woff2') format('woff2'),
+         url('JuanaMedium.woff') format('woff'),
+         url('JuanaMedium.ttf') format('truetype'),
+         url('JuanaMedium.svg#JuanaMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'quasimodalight';
+    src: url('quasimoda-light-webfont.eot');
+    src: url('quasimoda-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('quasimoda-light-webfont.woff2') format('woff2'),
+         url('quasimoda-light-webfont.woff') format('woff'),
+         url('quasimoda-light-webfont.ttf') format('truetype'),
+         url('quasimoda-light-webfont.svg#quasimodalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'quasimodasemibold';
+    src: url('quasimoda_semibold-webfont.eot');
+    src: url('quasimoda_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('quasimoda_semibold-webfont.woff2') format('woff2'),
+         url('quasimoda_semibold-webfont.woff') format('woff'),
+         url('quasimoda_semibold-webfont.ttf') format('truetype'),
+         url('quasimoda_semibold-webfont.svg#quasimodasemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'quasimodaregular';
+    src: url('quasimoda_regular-webfont.eot');
+    src: url('quasimoda_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('quasimoda_regular-webfont.woff2') format('woff2'),
+         url('quasimoda_regular-webfont.woff') format('woff'),
+         url('quasimoda_regular-webfont.ttf') format('truetype'),
+         url('quasimoda_regular-webfont.svg#quasimodaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'quasimodamedium';
+    src: url('quasimoda_medium-webfont.eot');
+    src: url('quasimoda_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('quasimoda_medium-webfont.woff2') format('woff2'),
+         url('quasimoda_medium-webfont.woff') format('woff'),
+         url('quasimoda_medium-webfont.ttf') format('truetype'),
+         url('quasimoda_medium-webfont.svg#quasimodamedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'quasimodabold';
+    src: url('quasimoda_bold-webfont.eot');
+    src: url('quasimoda_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('quasimoda_bold-webfont.woff2') format('woff2'),
+         url('quasimoda_bold-webfont.woff') format('woff'),
+         url('quasimoda_bold-webfont.ttf') format('truetype'),
+         url('quasimoda_bold-webfont.svg#quasimodabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
